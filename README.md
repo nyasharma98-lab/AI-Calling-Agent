@@ -17,4 +17,12 @@ An AI-powered voice interaction system built with Python and Google Gemini API. 
 
 Python • Gemini API • FastAPI • SQLite • Faster-Whisper • NumPy • Pandas • Matplotlib
 
+🚀 Live Demo
+
+Backend API: https://ai-calling-agent-nriy.onrender.com
+
+API Documentation (Swagger): https://ai-calling-agent-nriy.onrender.com/docs
+
+Health Check: https://ai-calling-agent-nriy.onrender.com/health
+
 ⭐Learn. Build. Improve. Repeat🍁
