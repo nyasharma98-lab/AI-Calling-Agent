@@ -17,4 +17,4 @@ An AI-powered voice interaction system built with Python and Google Gemini API. 
 
 Python • Gemini API • FastAPI • SQLite • Faster-Whisper • NumPy • Pandas • Matplotlib
 
-⭐Learn. Build. Improve. Repeat
+⭐Learn. Build. Improve. Repeat🍁
