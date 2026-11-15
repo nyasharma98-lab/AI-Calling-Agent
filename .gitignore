@@ -1,0 +1,31 @@
+# Environment variables and API keys
+.env
+.env.*
+.venv311/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+.env
+.env*
+!.env.example
+.env.example
+
+# Audio recordings
+voice/recording.wav
+voice/*.wav
+voice/*.m4a
+
+# Database
+database/*.db
+
+# Generated reports
+reports/
+
+# Editor settings
+.vscode/
+

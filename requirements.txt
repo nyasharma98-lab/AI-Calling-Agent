@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+faster-whisper
+av==18.1.0
+sounddevice
+scipy
+pyttsx3
+numpy
+pandas
+matplotlib
+google-genai
+python-dotenv
+pydantic
