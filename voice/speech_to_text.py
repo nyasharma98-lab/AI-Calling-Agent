@@ -65,6 +65,6 @@ def convert_speech_to_text(audio_file):
         return full_text
 
     except Exception as e:
-     import traceback
-    traceback.print_exc()
-    return ""
+        import traceback
+        traceback.print_exc()
+        return ""
