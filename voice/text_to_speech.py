@@ -1,32 +1,14 @@
-import pyttsx3
-import tempfile
-import os
-
-
-def speak_text(text):
-
-    engine = pyttsx3.init()
-    engine.setProperty("rate", 170)
-    engine.setProperty("volume", 1.0)
-
-    engine.say(text)
-    engine.runAndWait()
+from gtts import gTTS
+from io import BytesIO
 
 
 def generate_speech_audio(text):
 
-    audio_path = tempfile.mktemp(suffix=".wav")
+    audio_buffer = BytesIO()
 
-    engine = pyttsx3.init()
-    engine.setProperty("rate", 170)
-    engine.setProperty("volume", 1.0)
+    tts = gTTS(text=text, lang="en")
+    tts.write_to_fp(audio_buffer)
 
-    engine.save_to_file(text, audio_path)
-    engine.runAndWait()
+    audio_buffer.seek(0)
 
-    with open(audio_path, "rb") as audio_file:
-        audio_bytes = audio_file.read()
-
-    os.remove(audio_path)
-
-    return audio_bytes
+    return audio_buffer.getvalue()

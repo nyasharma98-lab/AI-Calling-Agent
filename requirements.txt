@@ -4,7 +4,6 @@ faster-whisper
 av==18.1.0
 sounddevice
 scipy
-pyttsx3
 numpy
 pandas
 matplotlib
@@ -14,3 +13,4 @@ pydantic
 streamlit
 requests
 streamlit-mic-recorder
+gTTS
