@@ -194,9 +194,7 @@ elif page == "Talk to AI":
             "content": ai_response
         })
 
-        st.audio(audio_bytes, format="audio/wav")
-
-        st.rerun()
+        st.audio(audio_bytes, format="audio/mp3")
 
     st.divider()
 
